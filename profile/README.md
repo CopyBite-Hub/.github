@@ -24,6 +24,17 @@ flowchart LR
     d --> c
 ```
 
+### 이용 흐름
+
+```mermaid
+sequenceDiagram
+    participant Mac as Mac (메뉴바 앱)
+    participant Mobile as 모바일 앱
+    Mac->>Mac: CPU·메모리·배터리 등 수집
+    Mobile->>Mac: 페어링 코드 입력
+    Mac->>Mobile: 실시간 상태 전송
+```
+
 ## 이런 분께 추천합니다
 
 - 딱딱한 숫자 그래프보다 직관적인 시스템 모니터를 원하는 분
